@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* ****************************************************
+reset.css
+Define container layout.
+***************************************************** */
+
+body, div,
+dl, dt, dd, ul, ol, li,
+h1, h2, h3, h4, h5, h6,
+pre, form, fieldset, input, textarea,
+p, blockquote, th, td {
+	margin:0;
+	padding:0;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+fieldset, img {
+	border:0;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style:normal;
+	font-weight:normal;
+}
+
+ol, ul {
+	list-style:none;
+}
+
+caption, th {
+	text-align:left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+q:before, q:after {
+	content:'';
+}
+
+abbr, acronym {
+	border:0;
+}
+
+.hrLine01 hr{
+	display:none;
+}
+
+
+/* for Talking Browser */
+.reader {
+	position: absolute;
+	overflow: hidden;
+	left: 0px;
+	top: 0px;
+	width: 1px;
+	height:1px;
+	display: none;
+}
